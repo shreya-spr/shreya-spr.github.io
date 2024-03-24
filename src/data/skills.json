@@ -1,0 +1,61 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html-5.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css-3.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Nextjs",
+    "imageSrc": "skills/nextPic.png"
+  },
+  {
+    "title": "Express",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/js.png"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "skills/figma.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.png"
+  },
+  {
+    "title": "MySQL",
+    "imageSrc": "skills/mysql.png"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "skills/java.png"
+  },
+  {
+    "title": "GitHub",
+    "imageSrc": "skills/githubIcon.png"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "skills/Git-Icon.svg"
+  }
+]
+
+
+

@@ -1,0 +1,58 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  background-color: #232325;
+  color: var(--color-text);
+  border-radius: 15px;
+  padding: 73px;
+  margin-top: 129px;
+  z-index: 1;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.viewButton {
+  text-decoration: none;
+  border-radius: 0.7em;
+  background-color: #212121;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 20px;
+  font-size: large;
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+.viewButton:hover {
+  color: #d97706;
+  background-color: #232325;;
+}
+
+@media screen and (max-width:830px) {
+  .container {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .title {
+    margin-left: 5%;
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}

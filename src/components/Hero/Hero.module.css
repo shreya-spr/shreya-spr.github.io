@@ -1,0 +1,170 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 49px;
+  /* z-index: 1; */
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* color: var(--color-text); */
+  z-index: 1;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 33px;
+  font-family: var(--font-roboto);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 70%,
+    rgba(255, 255, 255, 0) 170%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.description {
+  font-size: 30px;
+  font-family: var(--font-roboto);
+  font-size: 25px;
+  color: var(--nav-text);
+  font-weight: 500;
+  margin-bottom: 52px;
+}
+
+
+.resumeBtn {
+  text-decoration: none;
+  background-image: linear-gradient(to right, #903f99, #a5079d);
+  color: var(--color-text);
+  border-radius: 100px;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 17px 26px;
+  box-shadow: 0 0 20px 10px rgba(170, 7, 157, 0.7)
+  
+}
+
+.imageBackground {
+  position: absolute;
+  top: 0;
+  right: 0; /* Position on the right side */
+  width: 400px; 
+  height: 60%;
+  background-image: linear-gradient(to right, #FFA500, #FF4500);
+  border-radius: 10px;
+  border: 2px solid #000;
+  z-index: 0; /* Send it behind */
+}
+
+.heroImg {
+  width: 400px;
+  height: 60%;
+  z-index: 1; /* Keep it on top */
+  transform: rotate(5deg); /* Tilt the image to the right by 3 degrees */
+  position: relative; /* Ensure it stays above other elements */
+}
+
+
+
+.profilePicContainer {
+  /* border: 5px solid white; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.backgroundContainer {
+  /* border: 3px solid red; */
+  width: 500px;
+  height: 500px;
+  background-image: linear-gradient(to bottom right, #a855f7, #ec4899);
+  border-radius: 1.5rem;
+}
+
+
+
+.profileImgDiv {
+  /* border: 2px solid yellow; */
+  border-radius: 1.5rem;
+  transform: rotate(3deg);
+}
+
+.profileImg {
+  height: 300px;
+  width: 300px;
+  /* border: 3px solid blue; */
+  color: transparent;
+  border-radius: 1.5rem;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+
+
+
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 10px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+.topBlur {
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  min-width: 350px;
+  min-width: 350px;
+  top: -128px;
+  left: -10vw;
+  border-radius: 764px;
+  background: rgba(25, 55, 109, 0.7);
+  filter: blur(100px);
+  z-index: 0;
+}
+
+.bottomBlur {
+  position: absolute;
+  width: 70vw;
+  height: 50vw;
+  min-width: 350px;
+  min-width: 250px;
+  top: 246px;
+  right: -25vw;
+  border-radius: 764px;
+  background: rgba(25, 55, 109, 0.7);
+  filter: blur(100px);
+  z-index: 0;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  .content {
+    align-items: center;
+  }
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "title": "Kulaabhooshanam",
+    "imageSrc": "projects/kula2.png",
+    "description": "A child adoption portal",
+    "skills": ["Next.js", "CSS", "SQL", "Botpress"],
+    "year": "2023",
+    "demo": "https://www.example.com",
+    "source": "https://github.com/shreya-spr/Kulaabhooshanam"
+  },
+  {
+    "title": "Portfolio",
+    "imageSrc": "projects/portfolio2024.png",
+    "description": "The website you're viewing right now!",
+    "skills": ["React", "Vite", "CSS"],
+    "year": "2024",
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Fonnoissuer",
+    "imageSrc": "projects/dash.png",
+    "description": "Finance Dashboard to view expenses and see simple predictions",
+    "skills": ["TypeScript", "Express", "Node", "MongoDB", "Chart.js", "Vite"],
+    "year": "2023",
+    "demo": "https://www.example.com",
+    "source": "https://github.com/shreya-spr/fonnoisseur-app"
+  },
+  {
+    "title": "PESU Foods",
+    "imageSrc": "projects/pesuFoods.png",
+    "description": "Order food without the hassle of waiting in queues",
+    "skills": ["Next.js", "CSS", "MongoDB", "API"],
+    "year": "2023",
+    "demo": "https://www.example.com",
+    "source": "https://github.com/shreya-spr/foodsWebsite"
+  },
+  {
+    "title": "Samantha: Assistant",
+    "imageSrc": "projects/asst3.png",
+    "description": "A desktop virtual assistant, that understands audio input and performs a variety of tasks",
+    "skills": ["Python", "API"],
+    "year": "2023",
+    "demo": "https://www.example.com",
+    "source": "https://github.com/shreya-spr/My-Desktop-Assistant"
+  },
+  {
+    "title": "Hotel Recommender System",
+    "imageSrc": "projects/hotel.svg",
+    "description": "Suggests different hotels to saty in based on your preferences",
+    "skills": ["Python"],
+    "year": "2022",
+    "demo": "https://www.example.com",
+    "source": "https://github.com/shreya-spr/hotel-recommender"
+  },
+  {
+    "title": "Customer Churn Ananlysis use streamlit",
+    "imageSrc": "projects/hotel.svg",
+    "description": "Suggests different hotels to saty in based on your preferences",
+    "skills": ["Python"],
+    "year": "2022",
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "RecipesGO",
+    "imageSrc": "projects/asst3.png",
+    "description": "A blog website, where you can keep a record of all your favourite recipes and post your own!",
+    "skills": ["React", "CSS", "MongoDB", "Express"],
+    "year": "2022",
+    "demo": "https://www.example.com",
+    "source": "https://github.com/shreya-spr/recipesGObackend"
+  },
+  {
+    "title": "Stock Price Prediction",
+    "imageSrc": "projects/stock.svg",
+    "description": "ADD MORE DESCCCC A stock price prediction trained on Google dataset, performing time series",
+    "skills": ["Tensorflow", "Keras"],
+    "year": "2023",
+    "demo": "https://www.example.com",
+    "source": "https://github.com/shreya-spr/StockPricePrediction"
+  }
+]

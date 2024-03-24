@@ -1,0 +1,27 @@
+[
+    {
+      "title": "Supervised Machine Learning: Regression and Classification",
+      "organisation": "Coursera",
+      "link": "https://coursera.org/verify/LHAH8HCRVGX2",
+      "imageSrc": "certifications/coursera.png"
+    },
+    {
+      "title": "Intro to Machine Learning",
+      "organisation": "Kaggle",
+      "link": "https://www.kaggle.com/learn/certification/skyepotter/intro-to-machine-learning",
+      "imageSrc": "certifications/kaggle.svg"
+    },
+    {
+      "title": "Pandas",
+      "organisation": "Kaggle",
+      "link": "https://www.kaggle.com/learn/certification/skyepotter/pandas",
+      "imageSrc": "certifications/kaggle.svg"
+    },
+    {
+      "title": "Data Science Foundations",
+      "organisation": "Great Learning",
+      "link": "https://olympus.mygreatlearning.com/courses/13680/certificate",
+      "imageSrc": "certifications/great.jpg"
+    }
+]
+  
