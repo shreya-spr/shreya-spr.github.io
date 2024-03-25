@@ -56,7 +56,7 @@
   {
     "title": "Customer Churn Ananlysis use streamlit",
     "imageSrc": "projects/hotel.svg",
-    "description": "Suggests different hotels to saty in based on your preferences",
+    "description": "Predicts whether a customer will leave the service in a telecommunication service",
     "skills": ["Python"],
     "year": "2022",
     "demo": "https://www.example.com",
@@ -64,7 +64,7 @@
   },
   {
     "title": "RecipesGO",
-    "imageSrc": "projects/asst3.png",
+    "imageSrc": "projects/recipes.png",
     "description": "A blog website, where you can keep a record of all your favourite recipes and post your own!",
     "skills": ["React", "CSS", "MongoDB", "Express"],
     "year": "2022",
@@ -74,7 +74,7 @@
   {
     "title": "Stock Price Prediction",
     "imageSrc": "projects/stock.svg",
-    "description": "ADD MORE DESCCCC A stock price prediction trained on Google dataset, performing time series",
+    "description": "A stock price prediction trained on Google dataset, performing time series",
     "skills": ["Tensorflow", "Keras"],
     "year": "2023",
     "demo": "https://www.example.com",
