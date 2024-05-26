@@ -28,14 +28,15 @@ export const ProjectCard = ({
         })}
       </ul>
       <div className={styles.links}>
-        {/* <a href={demo} className={styles.link}>
-          Demo
-        </a> */}
-        
-
         <a href={source} className={styles.btn}>
           View on GitHub
         </a>
+
+        {demo && demo.trim() !== "" && (
+            <a href={demo} className={styles.demobtn}>
+              Demo
+            </a>
+        )}
       </div>
     </div>
   );

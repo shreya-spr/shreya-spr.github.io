@@ -52,7 +52,8 @@
 
 .description {
   margin-top: 6px;
-  font-size: 25px;
+  font-size: large;
+  /*font-size: 16px*/
   font-weight: 400;
 }
 
@@ -80,7 +81,7 @@
   width: 100%;
   margin-top: 26px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   border: 4px #cad4e4;
 }
 
@@ -94,7 +95,7 @@
   padding: 1px 22px;
 }
 
-
+.demobtn,
 .btn {
   text-decoration: none;
   border-radius: 0.7em;
@@ -106,6 +107,11 @@
   cursor: pointer;
 }
 
+.demobtn {
+  margin-left: 3%;
+}
+
+.demobtn:hover,
 .btn:hover {
   background-color: #ffffffac;
   border: none;

@@ -11,7 +11,7 @@ export const Hero = () => {
         <p className={styles.description}>
           I'm a full-stack developer. Reach out if you'd like to learn more!
         </p>
-        <a href="https://drive.google.com/file/d/172yxq7V3rw4EkTX39UEn0XFHylrxYqMO/view?usp=sharing" target="_blank" className={styles.resumeBtn}>
+        <a href="https://drive.google.com/file/d/1m1AVvEirDR3nZh_gaDyA0bXvcpM3ttjQ/view?usp=sharing" target="_blank" className={styles.resumeBtn}>
           View Resume  
         </a>
       </div>
